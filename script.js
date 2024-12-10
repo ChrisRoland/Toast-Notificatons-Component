@@ -2,10 +2,10 @@ const button = document.getElementById("button");
 const toasts = document.getElementById("toasts");
 
 const messageTypes = {
-    "Ohayogozaimasu": "success",
-    "Genki desu ka?": "info",
-    "Sayonara": "error", 
-    "Mataashita": "pending"
+    "success": "success",
+    "info": "info",
+    "error": "error", 
+    "pending": "pending"
 };
 
 const messages = Object.keys(messageTypes);
